@@ -1,0 +1,13 @@
+/* Full page reset + full-width layout */
+@import "leaflet/dist/leaflet.css";
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; width: 100%; }
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  background: #f5f7fb; /* keep clean; you can swap for a campus image if you want */
+  color: #1f2937;
+}
+
+/* Keep map tiles below modals */
+.leaflet-container { z-index: 1; }
