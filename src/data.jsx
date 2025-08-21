@@ -1,22 +1,23 @@
 export const plants = [
   {
-    id: 1,
-    localName: "Mango",
-    biologicalName: "Mangifera indica",
-    family: "Anacardiaceae",
-    familyCharacteristics: "Flowering plants, trees producing fleshy drupes; leaves simple, mostly evergreen.",
-    venation: "Reticulate",
-    images: [
-      "https://upload.wikimedia.org/wikipedia/commons/9/90/Mango_fruit.png",
-      "https://upload.wikimedia.org/wikipedia/commons/6/65/Mango_tree.jpg"
-    ],
-    lat: 16.4419,
-    lng: 80.6225,
-    waterIntakePerWeekLiters: 120,
-    oxygenPerYearKg: 230,
-    co2PurifiedPerYearKg: 180,
-    uses: "Mango fruits are consumed worldwide; wood is used for timber; tree provides shade."
-  },
+  id: 1,
+  localName: "Mango",
+  biologicalName: "Mangifera indica",
+  family: "Anacardiaceae",
+  familyCharacteristics: "Flowering plants, trees producing fleshy drupes; leaves simple, mostly evergreen.",
+  venation: "Reticulate",
+  images: [
+    "mango1.jpeg",
+    "mango2.jpeg"
+  ],
+  lat: 16.4419,
+  lng: 80.6225,
+  waterIntakePerWeekLiters: 120,
+  oxygenPerYearKg: 230,
+  co2PurifiedPerYearKg: 180,
+  uses: "Mango fruits are consumed worldwide; wood is used for timber; tree provides shade."
+}
+,
   {
     id: 2,
     localName: "Neem",
@@ -25,8 +26,8 @@ export const plants = [
     familyCharacteristics: "Flowering plants, mostly trees; often with pinnate leaves and small flowers.",
     venation: "Pinnate",
     images: [
-      "https://upload.wikimedia.org/wikipedia/commons/3/3e/Neem_fruit_and_flower.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/b/b1/Neem_tree.jpg"
+      "neem1.jpeg",
+      "neem2.jpeg",
     ],
     lat: 16.4425,
     lng: 80.623,
@@ -43,8 +44,8 @@ export const plants = [
     familyCharacteristics: "Large trees with milky latex, simple leaves, often with figs as fruits.",
     venation: "Reticulate",
     images: [
-      "https://upload.wikimedia.org/wikipedia/commons/b/b4/Ficus_religiosa.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/4/41/Peepal_tree.jpg"
+      "peepal1.jpeg",
+      "peepal2.jpeg",
     ],
     lat: 16.4421,
     lng: 80.6218,
@@ -61,8 +62,8 @@ export const plants = [
     familyCharacteristics: "Flowering plants, many species with compound leaves; often nitrogen-fixing.",
     venation: "Pinnate",
     images: [
-      "https://upload.wikimedia.org/wikipedia/commons/0/0e/Delonix_regia_flower2.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/f/f1/Gulmohar_tree.jpg"
+      "gulmohar1.jpeg",
+      "gulmohar2.jpeg",
     ],
     lat: 16.4428,
     lng: 80.6229,
@@ -79,8 +80,8 @@ export const plants = [
     familyCharacteristics: "Evergreen trees or shrubs; flowers in dense clusters; compound leaves.",
     venation: "Pinnate",
     images: [
-      "https://upload.wikimedia.org/wikipedia/commons/4/49/Ashoka_flower.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Saraca_asoca_tree.jpg"
+      "ashoka1.jpeg",
+      "ashoka2.jpeg",
     ],
     lat: 16.443,
     lng: 80.6222,
