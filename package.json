@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://Raghavan258.github.io/hackathon_dashboard/",
+  "homepage":"https://Raghavan258.github.io/hd/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
